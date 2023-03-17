@@ -59,6 +59,9 @@ $ gulp wrap
 $ gulp distroy
 ```
 
+mono
+
+
 
 shopify theme dev --store hypland-app-development
 
