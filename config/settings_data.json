@@ -2,6 +2,7 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/header.png",
     "logo_width": 300,
+    "favicon": "shopify:\/\/shop_images\/header.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#f8ffcb",
     "gradient_accent_1": "",
