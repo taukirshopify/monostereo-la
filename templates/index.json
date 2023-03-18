@@ -31,7 +31,7 @@
       "type": "home-video",
       "settings": {
         "imageoverly": "shopify:\/\/shop_images\/2redo_shop_collection.png",
-        "video-url": ""
+        "video-url": "https:\/\/www.w3schools.com\/html\/mov_bbb.mp4"
       }
     }
   },
