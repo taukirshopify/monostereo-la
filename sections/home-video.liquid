@@ -6,7 +6,7 @@
 
 
            <div class="overly-fream">
-           <img src="{{ section.settings.imageoverly }}" alt="">
+           <img src="{{ section.settings.imageoverly | img_url:'master' }}" alt="">
             </div>
 
 
@@ -39,9 +39,9 @@
             "label": "Image Overly for video"
            },
            {
-            "type": "url",
+            "type": "text",
             "id": "video-url",
-            "label": "Video Url"
+            "label": "Put your video link"
            }
         ],
         "presets": [
