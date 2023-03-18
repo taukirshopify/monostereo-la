@@ -9,7 +9,12 @@
            <img src="{{ section.settings.imageoverly | img_url:'master' }}" alt="">
             </div>
 
-
+            <div class="mutecontoroller">
+                <div class="play" id="audio-control">
+               {% render 'unmute.liquid' %}
+               {% render 'mute.liquid' %}
+               </div>
+            </div> 
 
             <div class="video-wrapper">
             
@@ -51,6 +56,31 @@
         ]
     }
 {% endschema %}
+
+
+<script>
+
+    $( document ).ready(function() {
+
+
+                $('#audio-control').click(function(){
+                    if( $("#videoBG").prop('muted') ) {
+                        $("#videoBG").prop('muted', false);
+                       {% comment %} $('').addClass("intro"); {% endcomment %}
+                       $(".svg-unmute").addClass('d-none');
+                       $(".svg-mute").removeClass('d-none');
+                    // or toggle class, style it with a volume icon sprite, change background-position
+                    } else {
+                    $("#videoBG").prop('muted', true);
+                    $(this).removeClass("intro");
+                   $ (".svg-unmute").removeClass('d-none');
+                    $(".svg-mute").addClass('d-none');
+                    }
+                });
+
+        });
+</script>
+
 
 
 <style>
