@@ -1,0 +1,85 @@
+<section class="collection-proudct-wrpper">
+
+
+<div class="container">
+    <div class="row">
+
+        {% for block in section.blocks %}  
+        {% case block.type %}
+            {% when 'custom-text' %}
+        {% endcase %} 
+
+
+        <div class="col-md-4">
+            <div class="catalog-two-wrapper">
+            
+            
+          
+    
+              <div class="coll-or-pro">
+                 <img src="{{ section.settigns.img  | img_url:'' }}" alt="">
+             </div>
+             <div class="collection-or-proudct">
+                <img src="{{ section.settigns.img-02  | img_url:'' }}" alt="">
+             </div>
+    
+    
+            </div>
+    
+         </div> 
+    {% endfor %}
+
+
+
+
+    </div>
+</div>
+</section>
+
+
+{% schema %}
+    {
+        "name": "Collection / proudct ",
+        "class": "iamge-catalog",
+         "blocks": [
+            {
+                "type": "block",
+                "name": "slide",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "img"  ,
+                        "label": "Select your big Image here"
+                      },
+                      {
+                        "type": "image_picker",
+                        "id": "img-02",
+                        "label": "Small image here"
+                      }
+                ]
+            }
+         ],
+         
+        "presets": [
+            {
+                "name": "Collection with proudct"
+            }
+        ]
+    }
+{% endschema %}
+
+
+<style>
+.catalog-two-wrapper{
+ position: relative;
+ padding: 10px 0;
+}
+.collection-or-proudct{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+
+}
+</style>
