@@ -26,9 +26,17 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "0eb45fb2-9c89-41bf-9568-b3b850a01e76": {
+      "type": "home-video",
+      "settings": {
+        "imageoverly": "shopify:\/\/shop_images\/2redo_shop_collection.png",
+        "video-url": ""
+      }
     }
   },
   "order": [
-    "featured_collection"
+    "featured_collection",
+    "0eb45fb2-9c89-41bf-9568-b3b850a01e76"
   ]
 }
