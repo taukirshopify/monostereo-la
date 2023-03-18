@@ -227,6 +227,7 @@
       }
     {% endstyle %}
 
+    {{ 'bootstrap.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}

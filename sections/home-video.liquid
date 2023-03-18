@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+       <div class="col-md-12">
+
+          <div class="header-image-wrappper">
+
+
+           <div class="overly-fream">
+           <img src="{{ section.settings.imageoverly }}" alt="">
+            </div>
+
+
+
+            <div class="video-wrapper">
+            
+                <video id="videoBG" poster="" playsinline autoplay muted loop>
+                    <source type="video/mp4" src="{{ section.settings.video-url }}">
+                  </video>
+
+            </div>
+
+
+
+
+         </div>
+    
+       </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Video and Image slide",
+        "class": "videoandbannar",
+        "settings": [
+           {
+            "type": "image_picker",
+            "id": "imageoverly",
+            "label": "Image Overly for video"
+           },
+           {
+            "type": "url",
+            "id": "video-url",
+            "label": "Video Url"
+           }
+        ],
+        "presets": [
+            {
+              "name": "Slideshow"
+            }
+        ]
+    }
+{% endschema %}
