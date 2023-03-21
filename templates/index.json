@@ -163,7 +163,10 @@
       "type": "featued-proudct-02",
       "settings": {
         "img": "shopify:\/\/shop_images\/Rectangle_9_1.jpg",
-        "proudct": "earrings-triangle"
+        "proudct": "earrings-triangle",
+        "img-01": "shopify:\/\/shop_images\/Rectangle_10.jpg",
+        "proudct-01": "",
+        "proudct-02": ""
       }
     }
   },
