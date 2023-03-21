@@ -202,7 +202,7 @@
     {%- endunless -%}
   {%- endif -%}
 
-  <div class="footer__content-bottom">
+  <div class="footer__content-bottom-1">
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
@@ -309,7 +309,7 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+    <div class="footer__content-bottom-wrapper justify-content-center page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
         <small class="copyright__content">{{ powered_by_link }}</small>
@@ -662,4 +662,21 @@
   align-items: center;
   justify-content: center;
 }
+a.link.link--text.list-menu__item.list-menu__item--link {
+  margin: 0 20px 0 0;
+  padding: 0;
+  text-decoration: none;
+  border-right: 1px solid #000;
+  padding-right: 20px;
+  line-height: 1;
+}
+ul.footer-block__details-content.list-unstyled li{
+margin:0;
+}
+ul.footer-block__details-content.list-unstyled li:last-child a.link{
+  margin:0;
+  padding:0;
+  border: none;
+}
+
 </style>
