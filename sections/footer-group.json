@@ -12,10 +12,18 @@
             "image_width": 550,
             "alignment": "center"
           }
+        },
+        "4e26310a-aeba-4762-a307-8d3f26e17743": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "main-menu"
+          }
         }
       },
       "block_order": [
-        "c0ed22e0-c10c-4473-8a64-c1c21cf76aee"
+        "c0ed22e0-c10c-4473-8a64-c1c21cf76aee",
+        "4e26310a-aeba-4762-a307-8d3f26e17743"
       ],
       "settings": {
         "color_scheme": "background-1",
