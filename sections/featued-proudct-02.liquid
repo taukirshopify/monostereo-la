@@ -1,0 +1,99 @@
+
+<section class="featued-product-2">
+    <div class="container">
+     <div class="row">
+      
+            <div class="col-md-6">
+              <div class="featued-bannar-product-wrapper">
+                <div class="featued-product-bannar-img">
+                   <img src="{{ section.settings.img | img_url:'' }}" alt="">
+                </div>
+                <div class="featued-product-bannar-content-2">
+                    <a href="{{ section.settings.proudct.url }}" >  <h3>{{ section.settings.proudct.title }}</h3> </a>
+                    <a href="{{ section.settings.proudct.url }}" >  <p>{{ section.settings.proudct.price | money }}</p> </a>
+                 
+                </div>
+             </div>
+    
+            </div>
+         
+    
+    
+    
+     </div>
+     </div>
+    
+    
+    </section>
+    
+    
+    
+    {% schema %}
+        {
+            "name": "Featued product 02",
+            "class": "product-bannar-02",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Bannar image"
+                },
+                {
+                    "type": "product",
+                    "id": "proudct",
+                    "label": "Select your Proudct"
+                }
+            ],
+            
+            "presets": [
+                {
+                    "name": "Featued product 02"
+                }
+            ]
+        }
+    {% endschema %}
+    
+    
+    
+    <style>
+    
+    
+    .featued-bannar-2 img{
+     width: 100%;
+    }
+    
+   .featued-bannar-2 .featued-bannar-content-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #fff;
+        font-weight: bold;
+       
+        font-size: 25px;
+        
+        text-align: center;
+    }
+    .featued-bannar-2  .featued-bannar-wrapper {
+        position: relative;
+    }
+    
+    
+    .featued-bannar-2  .featued-bannar-content-2 a.btn {
+        padding: 18px 31px;
+        font-family: 'JMH Typewriter dry';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        color: #000;
+        background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(3.5px);
+      
+    }
+    .featued-bannar-2  .featued-bannar-content-2 a.btn:hover {
+      
+       
+        color: #000;
+        
+    }
+
+    </style>
