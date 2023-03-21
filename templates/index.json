@@ -106,9 +106,9 @@
           "type": "bannar",
           "settings": {
             "img": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-            "h3": "",
-            "btn": "",
-            "btn_link": ""
+            "h3": "STORIES",
+            "btn": "See more",
+            "btn_link": "#"
           }
         }
       },
