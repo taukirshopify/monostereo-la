@@ -47,7 +47,8 @@
         "4fabd066-6e54-4087-9255-2d9b3ae2aa24": {
           "type": "collection",
           "settings": {
-            "img": "shopify:\/\/shop_images\/items_to_buy1.png"
+            "img": "shopify:\/\/shop_images\/items_to_buy1.png",
+            "img-02": "shopify:\/\/shop_images\/items_to_buy1.png"
           }
         }
       },
