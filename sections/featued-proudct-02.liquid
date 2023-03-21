@@ -16,6 +16,30 @@
              </div>
     
             </div>
+            <div class="col-md-6">
+              <div class="featued-bannar-product-wrapper">
+                <div class="featued-product-bannar-img">
+                   <img src="{{ section.settings.img-01 | img_url:'' }}" alt="">
+                </div>
+                <div class="featued-product-bannar-content-2">
+                    <a href="{{ section.settings.proudct.url-01  }}" >  <h3>{{ section.settings.proudct-01.title }}</h3> </a>
+                    <a href="{{ section.settings.proudct.url-01  }}" >  <p>{{ section.settings.proudct-01.price | money }}</p> </a>
+                 
+                </div>
+             </div>
+              <div class="featued-bannar-product-wrapper">
+                <div class="featued-product-bannar-img">
+                   <img src="{{ section.settings.img-02 | img_url:'' }}" alt="">
+                </div>
+                <div class="featued-product-bannar-content-2">
+                    <a href="{{ section.settings.proudct.url-02  }}" >  <h3>{{ section.settings.proudct-02.title }}</h3> </a>
+                    <a href="{{ section.settings.proudct.url-02  }}" >  <p>{{ section.settings.proudct-02.price | money }}</p> </a>
+                 
+                </div>
+             </div>
+        
+    
+            </div>
          
     
     
@@ -30,7 +54,7 @@
     
     {% schema %}
         {
-            "name": "Featued product 02",
+            "name": "Featued product 2",
             "class": "product-bannar-02",
             "settings": [
                 {
@@ -42,12 +66,32 @@
                     "type": "product",
                     "id": "proudct",
                     "label": "Select your Proudct"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img-01",
+                    "label": "Bannar image 2"
+                },
+                {
+                    "type": "product",
+                    "id": "proudct-01",
+                    "label": "Select your Proudct 02" 
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img-02",
+                    "label": "Bannar image 2"
+                },
+                {
+                    "type": "product",
+                    "id": "proudct-02",
+                    "label": "Select your Proudct 03"
                 }
             ],
             
             "presets": [
                 {
-                    "name": "Featued product 02"
+                    "name": "Featued product 2"
                 }
             ]
         }
