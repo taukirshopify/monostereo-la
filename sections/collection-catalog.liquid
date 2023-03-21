@@ -9,8 +9,8 @@
                    <img src="{{ block.settings.img | img_url:'' }}" alt="">
                 </div>
                 <div class="featued-bannar-content">
-                  <h2>{{ block.settings.h3 }}</h2>
-                  <a href="{{ block.settings.btn_link }}" class="btn">{{block.settings.btn}}</a>
+                  
+                  <a href="{{ block.settings.btn_link }}" class="btn">{{block.settings.btn}}   {% include 'featued-arrow' %}</a>
                 </div>
              </div>
     
@@ -95,22 +95,16 @@
     
     
     .featued-bannar-2  .featued-bannar-content a.btn {
-        padding: 7px 31px;
+        padding: 10px 31px;
         background: #AB080C;
         color: #fff;
         border:1px solid #AB080C;
     }
     .featued-bannar-2  .featued-bannar-content a.btn:hover {
-        padding: 10px 31px;
+      
         background: transparent;
         color: #000;
         
     }
-    .featued-bannar-2  .featued-bannar-content h2{
-        font-family: 'JMH Typewriter dry';
-        font-style: normal;
-        font-size: 139.542px;
-        font-weight: 100;
-        text-transform: uppercase;
-    }
+
     </style>
