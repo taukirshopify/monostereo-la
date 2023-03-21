@@ -169,6 +169,11 @@
         "img-02": "shopify:\/\/shop_images\/Group_4.jpg",
         "proudct-02": "earrings-rectangle-portrait-1"
       }
+    },
+    "2e41cc9f-9ea3-473c-b3ca-12738fac80fd": {
+      "type": "home-contact",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -178,6 +183,7 @@
     "34617d71-a383-4e98-8599-8d190bb4a2cc",
     "bfec7841-edab-495c-9fe3-df039a522372",
     "8dff8305-1aaa-4e5e-9b4d-e3107262d42d",
-    "859823d1-dcb6-4223-a3db-7c899ea239ba"
+    "859823d1-dcb6-4223-a3db-7c899ea239ba",
+    "2e41cc9f-9ea3-473c-b3ca-12738fac80fd"
   ]
 }
