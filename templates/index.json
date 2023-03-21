@@ -37,7 +37,8 @@
     "b4c0372c-1eda-4af8-aca0-f91e616ee070": {
       "type": "featured-image",
       "settings": {
-        "img": "shopify:\/\/shop_images\/2stories.png"
+        "img": "shopify:\/\/shop_images\/2stories.png",
+        "img-02": "shopify:\/\/shop_images\/2friends.png"
       }
     }
   },
