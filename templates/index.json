@@ -47,8 +47,8 @@
         "ccccab7e-c5da-43b9-b205-ce2df55c1014": {
           "type": "collection",
           "settings": {
-            "img": "shopify:\/\/shop_images\/items_to_buy1.png",
-            "img-02": "shopify:\/\/shop_images\/12_150-web.webp"
+            "img": "shopify:\/\/shop_images\/12_150-web.webp",
+            "img-02": "shopify:\/\/shop_images\/items_to_buy1.png"
           }
         }
       },
