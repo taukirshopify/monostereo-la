@@ -9,7 +9,7 @@
                <img src="{{ block.settings.img | img_url:'' }}" alt="">
             </div>
             <div class="featued-bannar-content">
-              <h2>{{ block.settings.h2 }}</h2>
+              <h2>{{ block.settings.h3 }}</h2>
               <a href="{{ block.settings.btn_link }}" class="btn">{{block.settings.btn}}</a>
             </div>
          </div>
@@ -77,5 +77,39 @@
  width: 100%;
 }
 
+.featued-bannar-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.featued-bannar-wrapper {
+    position: relative;
+}
 
+
+.featued-bannar-content a.btn {
+    padding: 10px 31px;
+    background: #AB080C;
+    color: #fff;
+    border:1px solid #AB080C;
+}
+.featued-bannar-content a.btn:hover {
+ 
+    background: transparent;
+    color: #000;
+    
+}
+.featued-bannar-content h2{
+    font-family: 'JMH Typewriter dry';
+    font-style: normal;
+    font-size: 139.542px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
 </style>
