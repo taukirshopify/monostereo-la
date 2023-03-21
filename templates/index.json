@@ -119,6 +119,25 @@
       ],
       "settings": {
       }
+    },
+    "8dff8305-1aaa-4e5e-9b4d-e3107262d42d": {
+      "type": "collection-catalog",
+      "blocks": {
+        "a9b237b7-d01b-4b32-8d59-c7fef158c96d": {
+          "type": "bannar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_6.jpg",
+            "h3": "",
+            "btn": "Shop Accessories",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a9b237b7-d01b-4b32-8d59-c7fef158c96d"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -126,6 +145,7 @@
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76",
     "b4c0372c-1eda-4af8-aca0-f91e616ee070",
     "34617d71-a383-4e98-8599-8d190bb4a2cc",
-    "bfec7841-edab-495c-9fe3-df039a522372"
+    "bfec7841-edab-495c-9fe3-df039a522372",
+    "8dff8305-1aaa-4e5e-9b4d-e3107262d42d"
   ]
 }
