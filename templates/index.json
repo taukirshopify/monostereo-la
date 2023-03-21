@@ -40,11 +40,28 @@
         "img": "shopify:\/\/shop_images\/2stories.png",
         "img-02": "shopify:\/\/shop_images\/2friends.png"
       }
+    },
+    "34617d71-a383-4e98-8599-8d190bb4a2cc": {
+      "type": "collection-with-image",
+      "blocks": {
+        "4fabd066-6e54-4087-9255-2d9b3ae2aa24": {
+          "type": "collection",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/items_to_buy1.png"
+          }
+        }
+      },
+      "block_order": [
+        "4fabd066-6e54-4087-9255-2d9b3ae2aa24"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "featured_collection",
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76",
-    "b4c0372c-1eda-4af8-aca0-f91e616ee070"
+    "b4c0372c-1eda-4af8-aca0-f91e616ee070",
+    "34617d71-a383-4e98-8599-8d190bb4a2cc"
   ]
 }
