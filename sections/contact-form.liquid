@@ -222,3 +222,37 @@
   ]
 }
 {% endschema %}
+
+
+
+
+<style>
+  .field:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: var(--inputs-border-width);
+    bottom: 0;
+    left: var(--inputs-border-width);
+    border: none;
+    border-radius: var(--inputs-radius);
+    box-shadow: none;
+    transition: none;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+
+.field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after {
+  box-shadow: none;
+  outline: 0;
+  border-radius: var(--inputs-radius);
+}
+
+.field:hover.field:after, .select:hover.select:after, .select__select:hover.select__select:after, .customer .field:hover.field:after, .customer select:hover.select:after, .localization-form__select:hover.localization-form__select:after {
+  box-shadow: none;
+  outline: 0;
+  border-radius: var(--inputs-radius);
+}
+
+</style>
