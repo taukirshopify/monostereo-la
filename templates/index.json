@@ -89,12 +89,18 @@
       ],
       "settings": {
       }
+    },
+    "bfec7841-edab-495c-9fe3-df039a522372": {
+      "type": "featued-bannar",
+      "settings": {
+      }
     }
   },
   "order": [
     "featured_collection",
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76",
     "b4c0372c-1eda-4af8-aca0-f91e616ee070",
-    "34617d71-a383-4e98-8599-8d190bb4a2cc"
+    "34617d71-a383-4e98-8599-8d190bb4a2cc",
+    "bfec7841-edab-495c-9fe3-df039a522372"
   ]
 }
