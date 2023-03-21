@@ -16,14 +16,14 @@
         "4e26310a-aeba-4762-a307-8d3f26e17743": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "main-menu"
           }
         },
         "ff5e5929-6fa0-4ae7-812e-35fabd2ec7be": {
           "type": "text",
           "settings": {
-            "heading": "Heading",
+            "heading": "",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
