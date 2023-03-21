@@ -158,6 +158,13 @@
       ],
       "settings": {
       }
+    },
+    "859823d1-dcb6-4223-a3db-7c899ea239ba": {
+      "type": "featued-proudct-02",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Rectangle_9_1.jpg",
+        "proudct": "earrings-triangle"
+      }
     }
   },
   "order": [
@@ -166,6 +173,7 @@
     "b4c0372c-1eda-4af8-aca0-f91e616ee070",
     "34617d71-a383-4e98-8599-8d190bb4a2cc",
     "bfec7841-edab-495c-9fe3-df039a522372",
-    "8dff8305-1aaa-4e5e-9b4d-e3107262d42d"
+    "8dff8305-1aaa-4e5e-9b4d-e3107262d42d",
+    "859823d1-dcb6-4223-a3db-7c899ea239ba"
   ]
 }
