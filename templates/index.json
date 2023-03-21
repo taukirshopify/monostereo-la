@@ -165,8 +165,9 @@
         "img": "shopify:\/\/shop_images\/Rectangle_9_1.jpg",
         "proudct": "earrings-triangle",
         "img-01": "shopify:\/\/shop_images\/Rectangle_10.jpg",
-        "proudct-01": "",
-        "proudct-02": ""
+        "proudct-01": "earrings-hdex",
+        "img-02": "shopify:\/\/shop_images\/Group_4.jpg",
+        "proudct-02": "earrings-rectangle-portrait-1"
       }
     }
   },
