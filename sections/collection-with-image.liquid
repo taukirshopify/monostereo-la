@@ -30,6 +30,24 @@
 
              {% when 'proudct' %}
 
+                <div class="col-md-4">
+                    <div class="catalog-two-wrapper">
+                    
+                    
+                  
+            
+                      <div class="coll-or-pro">
+                         <img src="{{ block.settings.img  | img_url:'' }}" alt="">
+                     </div>
+                     
+                     <div class="collection-or-proudct">
+                        <img src="{{ block.settings.img-02  | img_url:'' }}" alt="">
+                     </div>
+            
+            
+                    </div>
+            
+                 </div> 
         {% endcase %} 
 
 
@@ -47,6 +65,14 @@
     {
         "name": "Collection / proudct ",
         "class": "iamge-catalog",
+        "settings": [
+            {
+                "type": "text",
+                "id": "height",
+                "label": "Select height",
+                "default": "500"
+            }
+        ],
          "blocks": [
             {
                 "type": "collection",
@@ -107,5 +133,6 @@ height: 100%;
 
 .catalog-two-wrapper img {
     width: 100%;
+    height:{{ section.settings.height }}px;
 }
 </style>
