@@ -33,10 +33,18 @@
         "imageoverly": "shopify:\/\/shop_images\/2redo_shop_collection.png",
         "video-url": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4"
       }
+    },
+    "b4c0372c-1eda-4af8-aca0-f91e616ee070": {
+      "type": "featured-image",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/2stories.png",
+        "img-02": "shopify:\/\/shop_images\/2friends.png"
+      }
     }
   },
   "order": [
     "featured_collection",
-    "0eb45fb2-9c89-41bf-9568-b3b850a01e76"
+    "0eb45fb2-9c89-41bf-9568-b3b850a01e76",
+    "b4c0372c-1eda-4af8-aca0-f91e616ee070"
   ]
 }
