@@ -131,10 +131,30 @@
             "btn": "Shop Accessories",
             "btn_link": ""
           }
+        },
+        "7e8d77a3-f9d7-488a-be1a-534d2d13c176": {
+          "type": "bannar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_8.jpg",
+            "h3": "",
+            "btn": "Shop Accessories",
+            "btn_link": ""
+          }
+        },
+        "da364526-bbf6-4965-8f04-8bbc0bbb8392": {
+          "type": "bannar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_7.jpg",
+            "h3": "",
+            "btn": "Shop Accessories",
+            "btn_link": ""
+          }
         }
       },
       "block_order": [
-        "a9b237b7-d01b-4b32-8d59-c7fef158c96d"
+        "a9b237b7-d01b-4b32-8d59-c7fef158c96d",
+        "7e8d77a3-f9d7-488a-be1a-534d2d13c176",
+        "da364526-bbf6-4965-8f04-8bbc0bbb8392"
       ],
       "settings": {
       }
