@@ -92,6 +92,30 @@
     },
     "bfec7841-edab-495c-9fe3-df039a522372": {
       "type": "featued-bannar",
+      "blocks": {
+        "dc090679-c4ba-495c-8a1a-0f4a23612260": {
+          "type": "bannar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_5.jpg",
+            "h3": "",
+            "btn": "",
+            "btn_link": ""
+          }
+        },
+        "5a49e351-7846-4301-ac3f-99e13e821c9e": {
+          "type": "bannar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+            "h3": "",
+            "btn": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "dc090679-c4ba-495c-8a1a-0f4a23612260",
+        "5a49e351-7846-4301-ac3f-99e13e821c9e"
+      ],
       "settings": {
       }
     }
