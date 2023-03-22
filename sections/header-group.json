@@ -5,6 +5,14 @@
     "header": {
       "type": "header",
       "settings": {
+        "link": "#",
+        "link_title": "See all",
+        "link02": "shopify:\/\/pages\/contact",
+        "link_title02": "Clothing",
+        "link03": "#",
+        "link_title03": "Accessories",
+        "link04": "#",
+        "link_title04": "Objects",
         "color_scheme": "accent-1",
         "logo_position": "middle-center",
         "menu": "main-menu",
