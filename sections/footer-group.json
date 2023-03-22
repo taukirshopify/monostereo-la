@@ -17,7 +17,6 @@
           "type": "link_list",
           "settings": {
             "heading": "",
-            "img": "shopify:\/\/shop_images\/footer.png",
             "menu": "main-menu"
           }
         },
@@ -36,6 +35,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
+        "img": "shopify:\/\/shop_images\/footer.png",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
