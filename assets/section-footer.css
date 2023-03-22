@@ -7,7 +7,7 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
+
   display: block;
 }
 
@@ -37,7 +37,7 @@
   .footer__content-top .grid {
     row-gap: 6rem;
     margin-bottom: 0;
-  }
+  } 
 }
 
 .footer__content-bottom {

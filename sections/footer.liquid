@@ -312,7 +312,7 @@
     <div class="footer__content-bottom-wrapper justify-content-center page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+        <small class="copyright__content">| Design & Development by GS3</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -323,6 +323,11 @@
           </ul>
         {%- endif -%}
       </div>
+     <div class="footer-image-wrapper">
+    
+      <img src="{{ section.settings.img | img_url:'' }}" alt="">
+    </div>
+
     </div>
   </div>
 </footer>
@@ -395,6 +400,11 @@
           "id": "heading",
           "default": "Quick links",
           "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Footer bottom Image"
         },
         {
           "type": "link_list",
