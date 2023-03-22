@@ -309,7 +309,7 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper justify-content-center page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+    <div class="footer__content-bottom-wrapper justify-content-center flex-wrap page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
         <small class="copyright__content">| Design & Development by GS3</small>
@@ -673,13 +673,29 @@
   align-items: center;
   justify-content: center;
 }
+.footer-block__details-content p{
+  font-family: 'JMH Typewriter dry';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.7px;
+  margin-top:20px;
+
+}
 a.link.link--text.list-menu__item.list-menu__item--link {
   margin: 0 20px 0 0;
   padding: 0;
   text-decoration: none;
   border-right: 1px solid #000;
   padding-right: 20px;
+  font-size: 16.9px;
   line-height: 1;
+
+  font-family: 'JMH Typewriter dry';
+font-style: normal;
+font-weight: 400;
+}
+ul.footer-block__details-content{
+ margin:20px 0;
 }
 ul.footer-block__details-content.list-unstyled li{
 margin:0;
@@ -691,5 +707,19 @@ ul.footer-block__details-content.list-unstyled li:last-child a.link{
 }
 .footer-image-wrapper img{
 width: 100%;
+}
+
+small.copyright__content {
+  font-family: 'JMH Typewriter dry';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.8px;
+}
+
+@media only screen and (max-width: 600px)  {
+.footer-image-wrapper{
+ display: none;
+}
+
 }
 </style>
