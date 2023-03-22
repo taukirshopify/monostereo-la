@@ -17,6 +17,7 @@
           "type": "link_list",
           "settings": {
             "heading": "",
+            "img": "shopify:\/\/shop_images\/footer.png",
             "menu": "main-menu"
           }
         },
