@@ -31,7 +31,16 @@
     justify-self: start;
     margin-left: -1.2rem;
   }
-
+  .list-menu__item {
+    font-family: 'JMH Typewriter dry';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #000;
+  }
+  .list-menu__item:hover{
+    color: #000;
+  }
   .header__heading-logo {
     max-width: {{ settings.logo_width }}px;
   }
@@ -43,9 +52,9 @@
   {%- endif -%}
 
   @media screen and (min-width: 990px) {
-    header-drawer {
-      display: none;
-    }
+    {% comment %} header-drawer {
+      display: ;
+    } {% endcomment %}
   }
 
   .menu-drawer-container {
@@ -139,7 +148,7 @@
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
-      <header-drawer data-breakpoint="tablet">
+      <header-drawer class="d-block" >
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
@@ -151,6 +160,36 @@
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
+
+                    <ul class="collection-with-icon">
+              
+                          <li> <a href="{{ section.settings.link }}"> 
+                        
+                          
+                          
+                          {{ section.settings.link_title }}</a></li>
+                          <li> <a href="{{ section.settings.link02 }}"> 
+                          
+                          {% include 'spectacle' %}
+                          {{ section.settings.link_title02 }}</a></li>
+
+
+                          <li> <a href="{{ section.settings.link03 }}"> 
+                          
+                          {% include 'spectacle' %}
+
+                          {{ section.settings.link_title03 }}</a></li>
+
+
+
+                          <li> <a href="{{ section.settings.link04 }}">  
+                          
+                          {% include 'spectacle' %}
+
+                          {{ section.settings.link_title04 }}</a></li>
+                  
+                    </ul>
+
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
                       <li>
@@ -436,7 +475,7 @@
 
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
-        <nav class="header__inline-menu">
+        <nav class="header__inline-menu d-none">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -856,6 +895,46 @@
   "name": "t:sections.header.name",
   "class": "section-header",
   "settings": [
+{
+  "type": "url",
+  "id": "link",
+  "label": "Select your Url"
+},
+{
+  "type": "text",
+  "id": "link_title",
+  "label": "link Name"
+},
+{
+  "type": "url",
+  "id": "link02",
+  "label": "Select your Url"
+},
+{
+  "type": "text",
+  "id": "link_title02",
+  "label": "link Name"
+},
+{
+  "type": "url",
+  "id": "link03",
+  "label": "Select your Url"
+},
+{
+  "type": "text",
+  "id": "link_title03",
+  "label": "link Name"
+},
+{
+  "type": "url",
+  "id": "link04",
+  "label": "Select your Url"
+},
+{
+  "type": "text",
+  "id": "link_title04",
+  "label": "link Name"
+},
     {
       "type": "select",
       "id": "color_scheme",
@@ -884,6 +963,7 @@
       "default": "background-1",
       "label": "t:sections.all.colors.label"
     },
+     
     {
       "type": "header",
       "content": "t:sections.header.settings.logo_header.content"
