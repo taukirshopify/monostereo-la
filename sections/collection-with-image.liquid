@@ -30,12 +30,11 @@
         
              </div> 
 
-             {% when 'proudct' %}
+             {% when 'product' %}
 
                 <div class="col-md-4">
                     <div class="catalog-two-wrapper">
-                        proudct
-                    
+            
                   
             
                       <div class="coll-or-pro">
@@ -46,7 +45,7 @@
                         <img src="{{ block.settings.img-02  | img_url:'' }}" alt="">
                      </div>
                      <div class="corp-title">
-                      <a href="{{ block.settings.proudct.url }}"> <h4>{{ block.settings.proudct.title }}</h4></a> 
+                      <a href="{{ block.settings.proudct.url }}"> <h5>{{ block.settings.proudct.title }}</h5></a> 
                       <a href="{{ block.settings.proudct.url }}">   <p>{{ block.settings.proudct.price | money }}</p></a>
                      </div>
             
@@ -172,7 +171,26 @@ height: 100%;
     font-weight: 100;
     text-transform: uppercase;
 }
+.corp-title  h5{
 
+    font-family: 'JMH Typewriter dry';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.corp-title  p{
+
+    font-family: 'JMH Typewriter dry';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000;
+}
+.corp-title a{
+text-decoration:none;
+}
 .catalog-two-wrapper img {
     width: 100%;
     height:{{ section.settings.height }}px;
