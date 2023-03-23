@@ -66,4 +66,4 @@ mono
 shopify theme dev --store hypland-app-development
 
 
-shopify login --store the-chinatown-marketplace.myshopify.com
+shopify login --store https://monostereo-la.myshopify.com
