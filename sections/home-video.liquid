@@ -19,19 +19,19 @@
             <div class="video-wrapper">
             
                 <video id="videoBG" poster="" playsinline autoplay muted loop>
-                    <source type="video/mp4" src="{{ section.settings.video-url }}">
+                    <source type="video/mp4" src="{{ item.settings.video-url }}">
                   </video>
                   <div class="overly-fream">
-                    <img src="{{ section.settings.imageoverly | img_url:'master' }}" alt="">
+                    <img src="{{ item.settings.imageoverly | img_url:'master' }}" alt="">
                      </div>
             </div>
             {% when 'image' %}
               <div class="image-overly-wrapper">
-               <img src="{{ block.settings.img | img_url:'' }}" alt="">
+               <img src="{{ item.settings.img | img_url:'' }}" alt="">
             
               </div>
               <div class="main-image-url">
-                <img src="{{ block.settings.mainimg | img_url:'' }}" alt="">
+                <img src="{{ item.settings.mainimg | img_url:'' }}" alt="">
               </div>
 
             {% endcase %} 
