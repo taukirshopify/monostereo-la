@@ -1,5 +1,30 @@
 {
   "sections": {
+    "1f3502da-36f8-4277-8feb-8dc9957ed25f": {
+      "type": "home-video",
+      "blocks": {
+        "bb95b400-e481-4637-b11e-cf473e5542a2": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2redo_shop_collection.png",
+            "mainimg": "shopify:\/\/shop_images\/Rectangle_1.jpg"
+          }
+        },
+        "04ed4f3d-3f6a-4af6-9a71-19b6d52efc5d": {
+          "type": "video",
+          "settings": {
+            "imageoverly": "shopify:\/\/shop_images\/2redo_shop_collection.png",
+            "video-url": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "bb95b400-e481-4637-b11e-cf473e5542a2",
+        "04ed4f3d-3f6a-4af6-9a71-19b6d52efc5d"
+      ],
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -30,8 +55,6 @@
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76": {
       "type": "home-video",
       "settings": {
-        "imageoverly": "shopify:\/\/shop_images\/2redo_shop_collection.png",
-        "video-url": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4"
       }
     },
     "b4c0372c-1eda-4af8-aca0-f91e616ee070": {
@@ -185,6 +208,7 @@
     }
   },
   "order": [
+    "1f3502da-36f8-4277-8feb-8dc9957ed25f",
     "featured_collection",
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76",
     "b4c0372c-1eda-4af8-aca0-f91e616ee070",
