@@ -5,8 +5,10 @@
           <div class="header-image-wrappper">
 
 
-    
-
+      {% for item in section.blocks %}
+        {% case block.type %}
+         
+            {% when 'video' %}  
             <div class="mutecontoroller">
                 <div class="play" id="audio-control">
                {% render 'unmute.liquid' %}
@@ -23,6 +25,19 @@
                     <img src="{{ section.settings.imageoverly | img_url:'master' }}" alt="">
                      </div>
             </div>
+            {% when 'image' %}
+              <div class="image-overly-wrapper">
+               <img src="{{ block.settings.img | img_url:'' }}" alt="">
+            
+              </div>
+              <div class="main-image-url">
+                <img src="{{ block.settings.mainimg | img_url:'' }}" alt="">
+              </div>
+
+            {% endcase %} 
+      {% endfor %}
+
+
 
 
 
@@ -37,18 +52,42 @@
     {
         "name": "Video and Image slide",
         "class": "videoandbannar",
-        "settings": [
-           {
-            "type": "image_picker",
-            "id": "imageoverly",
-            "label": "Image Overly for video"
-           },
-           {
-            "type": "text",
-            "id": "video-url",
-            "label": "Put your video link"
-           }
+
+        "blocks": [
+            {
+                "type": "image",
+                "name": "image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "imageoverly",
+                        "label": "Image Overly for video"
+                       },
+                       {
+                        "type": "text",
+                        "id": "video-url",
+                        "label": "Put your video link"
+                       }
+                ]
+            },
+            {
+                "type": "video",
+                "name": "video",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "imageoverly",
+                        "label": "Image Overly for video"
+                       },
+                       {
+                        "type": "text",
+                        "id": "video-url",
+                        "label": "Put your video link"
+                       }
+                ]
+            }
         ],
+        
         "presets": [
             {
               "name": "Video and Image slide"
