@@ -187,7 +187,8 @@
         "bb95b400-e481-4637-b11e-cf473e5542a2": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2redo_shop_collection.png"
+            "img": "shopify:\/\/shop_images\/2redo_shop_collection.png",
+            "mainimg": "shopify:\/\/shop_images\/Rectangle_1.jpg"
           }
         }
       },
