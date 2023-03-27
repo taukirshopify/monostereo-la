@@ -580,10 +580,11 @@ color: #000;
             {%- if settings.logo != blank -%}
               {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
           
-              {{ settings.logo | image_url: width: 1920 | image_tag:
+              {% comment %} {{ settings.logo | image_url: width: 1920 | image_tag:
    
                 alt: logo_alt
-              }}
+              }} {% endcomment %}
+             <img src="{{  settings.logo | img_url:'' }}" alt="">
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
@@ -1159,6 +1160,6 @@ font-size: 16px;
   background-color: red;
 }
 a.header__heading-link.link.link--text.focus-inset img {
-  max-height: 20vh;
+  max-height: 24vh;
 }
 </style>
