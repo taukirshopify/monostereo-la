@@ -124,6 +124,7 @@
     },
     "bfec7841-edab-495c-9fe3-df039a522372": {
       "type": "featued-bannar",
+      "disabled": true,
       "blocks": {
         "dc090679-c4ba-495c-8a1a-0f4a23612260": {
           "type": "bannar",
@@ -153,6 +154,7 @@
     },
     "8dff8305-1aaa-4e5e-9b4d-e3107262d42d": {
       "type": "collection-catalog",
+      "disabled": true,
       "blocks": {
         "a9b237b7-d01b-4b32-8d59-c7fef158c96d": {
           "type": "bannar",
@@ -192,6 +194,7 @@
     },
     "859823d1-dcb6-4223-a3db-7c899ea239ba": {
       "type": "featued-proudct-02",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/Rectangle_9_1.jpg",
         "proudct": "earrings-triangle",
@@ -203,6 +206,7 @@
     },
     "2e41cc9f-9ea3-473c-b3ca-12738fac80fd": {
       "type": "home-contact",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/Rectangle_14.png",
         "h2": "Contact us"
