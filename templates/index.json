@@ -56,6 +56,7 @@
     },
     "0eb45fb2-9c89-41bf-9568-b3b850a01e76": {
       "type": "home-video",
+      "disabled": true,
       "settings": {
       }
     },
